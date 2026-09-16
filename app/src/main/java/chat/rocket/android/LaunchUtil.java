@@ -2,6 +2,7 @@ package chat.rocket.android;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 
 import chat.rocket.android.activity.AddServerActivity;
 import chat.rocket.android.activity.LoginActivity;
@@ -11,6 +12,8 @@ import chat.rocket.android.activity.MainActivity;
  * utility class for launching Activity.
  */
 public class LaunchUtil {
+
+  private static final String LOG_TAG = LaunchUtil.class.getName();
 
   /**
    * launch MainActivity with proper flags.
